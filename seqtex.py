@@ -22,6 +22,7 @@ def export_equations(filename,dest,target,dpi=500):
     \usepackage{xcolor}
     \usepackage{environ}
     \usepackage{graphicx}
+    \usepackage{amssymb}
     \n\NewEnviron{lgequation}{%
         \\begin{equation*}
         \scalebox{1.25}{$\BODY$}
