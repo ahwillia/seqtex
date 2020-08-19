@@ -23,6 +23,7 @@ def export_equations(filename,dest,target,dpi=500):
     \usepackage{environ}
     \usepackage{graphicx}
     \usepackage{amssymb}
+    \usepackage{sansmathfonts}
     \n\NewEnviron{lgequation}{%
         \\begin{equation*}
         \scalebox{1.25}{$\BODY$}
